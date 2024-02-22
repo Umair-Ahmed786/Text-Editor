@@ -7,7 +7,7 @@ import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-
 const Footer = ({mode}) => {
     return (
         <>
-            <div className={`container-fluid bg-${mode==='dark'?'dark':'light'}`} style={{color: mode==='light'?'black':'white'}}>
+            <div className={`align-self-end container-fluid bg-${mode==='dark'?'dark':'light'}`} style={{color: mode==='light'?'black':'white'}}>
 
 
                 <div className="row" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between' }} >
