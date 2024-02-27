@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 import Navbar1 from './components/Navbar1';
 import Textarea1 from './components/Textarea1';
 import Alert1 from './components/Alert1';
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 
 
@@ -35,7 +35,7 @@ function App() {
         <Navbar1 mode={mode} setmode={setmode} togglemode={togglemode}/>
         <Alert1 alert={alert}  setalert={setalert}/>
         <Textarea1 text={text} settext={settext} alert={alert}  setalert={setalert}  mode={mode}/>
-        <Footer mode={mode}/>
+        // <Footer mode={mode}/>
 
     </>
   );
